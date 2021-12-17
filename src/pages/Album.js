@@ -21,7 +21,7 @@ function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        Little Baby Ken Ken
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -41,7 +41,7 @@ export default function Album() {
         <Toolbar>
           <CameraIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
-            Album layout
+            LBKK
           </Typography>
         </Toolbar>
       </AppBar>
@@ -62,12 +62,11 @@ export default function Album() {
               color="text.primary"
               gutterBottom
             >
-              Album layout
+              Kennedy Photos <br></br>+ Videos
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              Something short and leading about the collection below—its contents,
-              the creator, etc. Make it short and sweet, but not too short so folks
-              don&apos;t simply skip over it entirely.
+              View, search, and add photos or videos of LBKK below! Searchable by location,
+               date range, content, etc.! Go Ken Ken, go Ken Ken, go! 
             </Typography>
             <Stack
               sx={{ pt: 4 }}
@@ -75,8 +74,8 @@ export default function Album() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button>
+              <Button variant="contained">Add Media</Button>
+              <Button variant="outlined">Search</Button>
             </Stack>
           </Container>
         </Box>
